@@ -1,0 +1,22 @@
+name: ad_hoc_ident_ocr_extract_tesseract
+description: "Provide an OcrTextExtractor implementation based on Tesseract v5."
+version: 0.0.1-preview-1
+homepage: https://github.com/FabianMoeckel/ad_hoc_ident_ocr_extract_tesseract
+repository: https://github.com/FabianMoeckel/ad_hoc_ident_ocr_extract_tesseract
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_vision: ^1.1.4
+  convert_native_img_stream: ^0.0.1
+  image: ^4.2.0
+  ad_hoc_ident_ocr: ^0.0.1-preview-1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
